@@ -1,6 +1,19 @@
-# 🔍 Job Monitor — Painel de Vagas em Data Science
+# 🔍 Job Monitor — Painel de Monitoramento de Vagas em Data Science
 
 Projeto de coleta, categorização e análise automatizada de vagas de emprego em Data Science, usando Python, Web Scraping, SQL, IA e Power BI.
+
+---
+
+## 📸 Dashboard
+
+### Visão Geral
+![Visão Geral](images/automação_page-0001.jpg)
+
+### Análise de Relevância
+![Análise de Relevância](images/automação_page-0002.jpg)
+
+### Análise de Tendência
+![Análise de Tendência](images/automação_page-0003.jpg)
 
 ---
 
@@ -28,6 +41,7 @@ job-monitor/
 │   ├── database.py           # Modelagem e operações no banco SQLite
 │   ├── ai_categorizer.py     # Integração com Groq API (AI Prompting)
 │   └── pipeline.py           # Orquestrador do fluxo completo
+├── images/                   # Screenshots do dashboard
 ├── data/                     # Banco SQLite gerado após execução
 ├── outputs/                  # CSV exportado para o Power BI
 ├── requirements.txt
@@ -40,8 +54,8 @@ job-monitor/
 
 ### 1. Clone o repositório
 ```bash
-git clone https://github.com/seu-usuario/job-monitor.git
-cd job-monitor
+git clone https://github.com/mathmoraesdev/Job-Monitor-Painel-de-Monitoramento-de-Vagas-em-Data-Science.git
+cd Job-Monitor-Painel-de-Monitoramento-de-Vagas-em-Data-Science
 ```
 
 ### 2. Crie e ative o ambiente virtual
@@ -87,16 +101,6 @@ RSS Feeds → BeautifulSoup → DataFrame → SQLite → Groq API → CSV → Po
 2. **Banco de dados** — salva com schema relacional, evitando duplicatas
 3. **IA** — categoriza cada vaga e atribui score de relevância via LLaMA 3.1
 4. **Exportação** — gera CSV para análise no Power BI
-
----
-
-## 📈 Dashboard Power BI
-
-O arquivo CSV exportado pode ser importado diretamente no Power BI Desktop via **Obter Dados → Texto/CSV**. O dashboard conta com três páginas:
-
-- **Visão Geral** — total de vagas, distribuição por categoria e por fonte
-- **Análise de Relevância** — ranking de vagas por score de IA, filtros por categoria
-- **Tendências** — distribuição proporcional por categoria e origem das vagas
 
 ---
 
