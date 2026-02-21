@@ -112,4 +112,4 @@ O arquivo `.env` está no `.gitignore` e nunca é enviado ao repositório. Nunca
 
 **Autor:** Matheus Moraes  
 **Contato:** math.moraes.dev@gmail.com  
-**LinkedIn:** linkedin.com/in/seu-perfil
+**LinkedIn:** linkedin.com/in/matheus-moraes-dev-
